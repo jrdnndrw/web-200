@@ -1,0 +1,57 @@
+
+#title {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-align: center;
+}
+
+#movies {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    float: left;
+    width: 45%;
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+#learnings {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    float: right;
+    width: 45%;
+    border: 1px;
+    border-style: dashed;
+    border-color: red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
+
+
+h3 {
+    font-weight: 500;
+}
+
+#links {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    width: 100%;
+    margin-top: 60%;
+    /* float: right; */
+}
+
+#to-top {
+    float: right;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
