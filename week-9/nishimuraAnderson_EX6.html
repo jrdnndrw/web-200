@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WEB 200 Fundamentals of Web Development</title>
+    <meta name="description" content="Page Layouts" />
+    <meta name="keywords" content="layouts. html. css" />
+    <meta name="robots" content="noindex" />
+    <meta name="author" content="Jordan Nishimura-Anderson" />
+    <link href="nishimuraAnderson_EX6.css" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Assignment 9.2: Build a Web Page Exercise - Part 6</h1>
+    </header>
+    <div id="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contacts</a>
+    </div>
+    <div id="container">
+      <div class="card">
+        <div class="card-title">Book Entry Form</div>
+        <div class="card-content">
+          <div class="form">
+            <div class="form-field">
+              <label for="txtBookName">Book name:”</label>
+              <input
+                type="text"
+                id="txtBookName"
+                name="txtBookName"
+                class="input"
+              />
+            </div>
+            <div class="form-field">
+              <button type="submit" class="btn btn-primary full-width">
+                Create Book
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="card">
+        <div class="card-title">Top 5 Favorite Books</div>
+        <div class="card-content">
+          <table id="books">
+            <tr>
+              <th>Book Id</th>
+              <th>Book Name</th>
+            </tr>
+            <tr>
+              <td>100</td>
+              <td>Harry Potter and the Chamber of Secrets</td>
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>Harry Potter and the Prisoner of Azkaban</td>
+            </tr>
+            <tr>
+              <td>102</td>
+              <td>Harry Potter and the Goblet of Fire</td>
+            </tr>
+            <tr>
+              <td>103</td>
+              <td>Harry Potter and the Order of the Phoenix</td>
+            </tr>
+            <tr>
+              <td>104</td>
+              <td>Harry Potter and the Half-Blood Prince</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        - <a href="https://www.bellevue.edu/">Bellevue University</a>
+      </p>
+    </footer>
+  </body>
+</html>
