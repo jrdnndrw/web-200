@@ -92,7 +92,7 @@ footer a:hover {
 }
 
 .form-field {
-  padding: 10px;
+  padding: 20px;
 }
 
 .btn {
@@ -144,7 +144,7 @@ footer a:hover {
   color: white;
 }
 
-#books td th {
+#books td, #books th {
   border: 1px solid #ddd;
   padding: 8px;
 }
